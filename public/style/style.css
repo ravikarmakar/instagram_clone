@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+.container {
+  border: 1px solid black;
+  background-color: #fff;
+  width: 500px;
+  height: 1000px;
+}
+
+.profile-center {
+  height: 220px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.post-center {
+  padding: 0.51rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  gap: 5px;
+}
+
+.img {
+  height: 155px;
+  width: 155px;
+  border: 1px solid black;
+}
+.img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
